@@ -1,0 +1,45 @@
+{
+    "name": "omnilab/chebi",
+    "type": "library",
+    "description": "Omnilab ChEBI: a chemical entity of biological interest by ChEBI id, InChIKey, CAS number, KEGG id or name - its definition, formula, masses, charge, SMILES, InChI, structure depiction, its ontology (what it is a kind of, its roles, functional parents, conjugates) and its identifiers in CAS, KEGG and the other bases - and a search, through the REST API of ChEBI 2.0 (EMBL-EBI), no key needed.",
+    "keywords": [
+        "science",
+        "chemistry",
+        "chebi",
+        "ontology",
+        "ebi",
+        "inchikey",
+        "omnilab"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnilab": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnilab\\Chebi\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnilab\\Chebi\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

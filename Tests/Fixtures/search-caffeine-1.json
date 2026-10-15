@@ -1,0 +1,79 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12102026",
+      "_type": "_doc",
+      "_id": "27732",
+      "_score": 64.50809,
+      "_source": {
+        "chebi_accession": "CHEBI:27732",
+        "name": "caffeine",
+        "ascii_name": "caffeine",
+        "stars": 3,
+        "default_structure": 27932,
+        "definition": "A trimethylxanthine in which the three methyl groups are located at positions 1, 3, and 7. A purine alkaloid that occurs naturally in tea and coffee.",
+        "inchikey": "RYYVLZVUVIJVGH-UHFFFAOYSA-N",
+        "formula": "C8H10N4O2",
+        "mass": 194.194,
+        "inchi": "InChI=1S/C8H10N4O2/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2/h4H,1-3H3",
+        "charge": 0,
+        "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O",
+        "monoisotopicmass": 194.08038,
+        "structures": [
+          27932,
+          27934,
+          3601
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12102026",
+      "_type": "_doc",
+      "_id": "749278",
+      "_score": 59.230694,
+      "_source": {
+        "chebi_accession": "CHEBI:749278",
+        "name": "caffeine citrate",
+        "ascii_name": "caffeine citrate",
+        "stars": 2,
+        "default_structure": 3490751,
+        "inchikey": "RCQXSQPPHJPGOF-UHFFFAOYSA-N",
+        "inchi": "InChI=1S/C8H10N4O2.C6H8O7/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2;7-3(8)1-6(13,5(11)12)2-4(9)10/h4H,1-3H3;13H,1-2H2,(H,7,8)(H,9,10)(H,11,12)",
+        "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O.O=C(O)CC(O)(CC(=O)O)C(=O)O",
+        "mass": 386.317,
+        "formula": "C6H8O7.C8H10N4O2",
+        "monoisotopicmass": 386.10738,
+        "charge": 0,
+        "structures": [
+          3490751
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12102026",
+      "_type": "_doc",
+      "_id": "32140",
+      "_score": 57.129448,
+      "_source": {
+        "chebi_accession": "CHEBI:32140",
+        "name": "sodium caffeine benzoate",
+        "ascii_name": "sodium caffeine benzoate",
+        "stars": 3,
+        "default_structure": 3114685,
+        "definition": "A  mixture of caffeine and sodium benzoate. It is used for the treatment of acute respiratory depression associated with overdosage of CNS depressant drugs and also used in combination with ergotamine to prevent vascular headaches.",
+        "mass": 338.299,
+        "monoisotopicmass": 338.0991,
+        "smiles": "Cn1c(=O)c2c(ncn2C)n(C)c1=O.O=C([O-])c1ccccc1.[Na+]",
+        "inchikey": "JWBPVFVNISJVEM-UHFFFAOYSA-M",
+        "inchi": "InChI=1S/C8H10N4O2.C7H6O2.Na/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2;8-7(9)6-4-2-1-3-5-6;/h4H,1-3H3;1-5H,(H,8,9);/q;;+1/p-1",
+        "charge": 0,
+        "formula": "C7H5O2.C8H10N4O2.Na",
+        "structures": [
+          3114685
+        ]
+      }
+    }
+  ],
+  "total": 18,
+  "number_pages": 6
+}

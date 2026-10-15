@@ -1,0 +1,77 @@
+{
+  "results": [
+    {
+      "_index": "chebi-prod-compounds-12102026",
+      "_type": "_doc",
+      "_id": "177330",
+      "_score": 52.60978,
+      "_source": {
+        "chebi_accession": "CHEBI:177330",
+        "name": "caffeine-<em>d</em><small><sub>9</sub></small>",
+        "ascii_name": "caffeine-d9",
+        "stars": 3,
+        "default_structure": 3459516,
+        "definition": "A deuterated isotopologue of caffeine in which the nine hydrogens contained in the 1, 3, and 7 methyl groups are substituted with deuterium.",
+        "smiles": "CC(C)(C)n1c(=O)c2c(ncn2C(C)(C)C)n(C(C)(C)C)c1=O",
+        "inchi": "InChI=1S/C8H10N4O2/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2/h4H,1-3H3/i1D3,2D3,3D3",
+        "monoisotopicmass": 320.22123,
+        "mass": 320.437,
+        "inchikey": "RYYVLZVUVIJVGH-GQALSZNTSA-N",
+        "charge": 0,
+        "formula": "C17H28N4O2",
+        "structures": [
+          3459516
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12102026",
+      "_type": "_doc",
+      "_id": "178066",
+      "_score": 47.801178,
+      "_source": {
+        "chebi_accession": "CHEBI:178066",
+        "name": "caffeine-(trimethyl-<small><sup>13</small></sup>C<small><sub>3</sub></small>)",
+        "ascii_name": "caffeine-(trimethyl-(13)C3)",
+        "stars": 3,
+        "default_structure": 3257128,
+        "definition": "A <small><sup>13</small></sup>C-modified compound that is caffeine in which the carbon atoms of the three methyl groups at positions 1, 3 and 7 are replaced by <small><sup>13</small></sup>C isotopes.",
+        "monoisotopicmass": 197.09044,
+        "inchi": "InChI=1S/C8H10N4O2/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2/h4H,1-3H3/i1+1,2+1,3+1",
+        "mass": 197.171,
+        "smiles": "[13CH3]n1c(=O)c2c(ncn2[13CH3])n([13CH3])c1=O",
+        "inchikey": "RYYVLZVUVIJVGH-VMIGTVKRSA-N",
+        "formula": "C5[13C3]H10N4O2",
+        "charge": 0,
+        "structures": [
+          3257128
+        ]
+      }
+    },
+    {
+      "_index": "chebi-prod-compounds-12102026",
+      "_type": "_doc",
+      "_id": "231574",
+      "_score": 30.704008,
+      "_source": {
+        "chebi_accession": "CHEBI:231574",
+        "name": "Caffeine-D3",
+        "ascii_name": "Caffeine-D3",
+        "stars": 2,
+        "default_structure": 3473374,
+        "monoisotopicmass": 197.09921,
+        "smiles": "[2H]C([2H])([2H])n1c(=O)c2c(ncn2C)n(C)c1=O",
+        "inchi": "InChI=1S/C8H10N4O2/c1-10-4-9-6-5(10)7(13)12(3)8(14)11(6)2/h4H,1-3H3/i3D3",
+        "inchikey": "RYYVLZVUVIJVGH-HPRDVNIFSA-N",
+        "charge": 0,
+        "mass": 197.212,
+        "formula": "C8H7D3N4O2",
+        "structures": [
+          3473374
+        ]
+      }
+    }
+  ],
+  "total": 18,
+  "number_pages": 6
+}
