@@ -1,6 +1,6 @@
 # omnilab/chebi
 
-ChEBI for [omniscient/omnilab](https://github.com/glitchr-studio/omnilab): a chemical entity of
+ChEBI for [omnisense/omnilab](https://github.com/glitchr-omnisense/omnilab): a chemical entity of
 biological interest by its ChEBI id, an InChIKey, a CAS number, a KEGG id or a name; its
 definition, formula, masses, charge, structure (SMILES, InChI, InChIKey, an SVG depiction), its
 place in ChEBI's ontology - what it is a kind of, its roles, its functional parents, its
