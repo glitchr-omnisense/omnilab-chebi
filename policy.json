@@ -1,0 +1,40 @@
+{
+    "$schema": "https://github.com/glitchr-omnisense/contracts/blob/1.x/resources/usage-policy.schema.json",
+    "provider": "chebi",
+    "rateLimits": null,
+    "concurrency": null,
+    "rights": {
+        "commercial": "allowed",
+        "openSourceRequired": null,
+        "caching": {
+            "permission": "allowed",
+            "maxTtl": null
+        },
+        "storage": "allowed",
+        "redistribution": "allowed",
+        "attribution": {
+            "required": true,
+            "text": "ChEBI (EMBL-EBI). Malik A. et al. (2025) ChEBI: re-engineered for a sustainable future. Nucleic Acids Res. doi:10.1093/nar/gkaf1271",
+            "url": "https://www.ebi.ac.uk/chebi/",
+            "where": [
+                "source"
+            ]
+        },
+        "licence": "CC-BY-4.0"
+    },
+    "requirements": {
+        "key": false,
+        "userAgent": {
+            "required": false,
+            "pattern": null
+        }
+    },
+    "provenance": {
+        "terms": "https://www.ebi.ac.uk/chebi/about",
+        "policy": "https://www.ebi.ac.uk/about/terms-of-use/",
+        "verifiedAt": "2026-11-10",
+        "declaredBy": "maintainer",
+        "contact": "chebi-help@ebi.ac.uk",
+        "notes": "ChEBI's About page (read 2026-11-10): data under CC BY 4.0, governed by EMBL-EBI's terms of use; citation given there. EMBL-EBI terms of use (read 2026-11-10): no rate figure; use that prevents or is likely to prevent others' use of the services results in the user being blocked, and EMBL-EBI may limit or revoke access; EMBL-EBI expects attribution. The ChEBI 2.0 API docs page (backend/api/docs) states no limit."
+    }
+}

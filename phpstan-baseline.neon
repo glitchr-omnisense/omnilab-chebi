@@ -1,0 +1,325 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Argument of an invalid type mixed supplied for foreach, only iterables are supported\.$#'
+			identifier: foreach.nonIterable
+			count: 7
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''CAS'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''INN''\|''SYNONYM'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''IUPAC NAME'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''MANUAL_X_REF'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''_id'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 4
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''_source'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 4
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''accession_number'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''ascii_name'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''charge'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''final_name'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''formula'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''inchikey'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''mass'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''monoisotopic_mass'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''name'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 3
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''outgoing_relations'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''prefix'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''relation_type'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''smiles'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''standard_inchi'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset ''standard_inchi_key'' on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 2
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot access offset 0 on mixed\.$#'
+			identifier: offsetAccess.nonOffsetAccessible
+			count: 3
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 7
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 6
+			path: ChebiSource.php
+
+		-
+			message: '#^Method Omnilab\\Chebi\\ChebiSource\:\:find\(\) return type has no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Parameter \#1 \$array of function usort expects TArray of array\<array\>, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Parameter \#1 \$data of method Omnilab\\Chebi\\ChebiSource\:\:fromCompound\(\) expects array\<string, mixed\>, array given\.$#'
+			identifier: argument.type
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Parameter \#1 \$document of method Omnilab\\Chebi\\ChebiSource\:\:fromDocument\(\) expects array\<string, mixed\>, array\<mixed, mixed\> given\.$#'
+			identifier: argument.type
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Parameter \#1 \$text of static method Omnilab\\Source\\HttpSource\:\:text\(\) expects string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 8
+			path: ChebiSource.php
+
+		-
+			message: '#^Parameter \#2 \$value of static method Omnilab\\Model\\Identifier\:\:tryOf\(\) expects int\|string\|null, mixed given\.$#'
+			identifier: argument.type
+			count: 6
+			path: ChebiSource.php
+
+		-
+			message: '#^Parameter \#3 \$value of class Omnilab\\Model\\Property constructor expects bool\|float\|int\|Omnilab\\Model\\Quantity\|string, mixed given\.$#'
+			identifier: argument.type
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Possibly invalid array key type mixed\.$#'
+			identifier: offsetAccess.invalidOffset
+			count: 1
+			path: ChebiSource.php
+
+		-
+			message: '#^Cannot cast mixed to float\.$#'
+			identifier: cast.double
+			count: 1
+			path: ChebiSourceFactory.php
+
+		-
+			message: '#^Cannot cast mixed to int\.$#'
+			identifier: cast.int
+			count: 1
+			path: ChebiSourceFactory.php
+
+		-
+			message: '#^Cannot cast mixed to string\.$#'
+			identifier: cast.string
+			count: 1
+			path: ChebiSourceFactory.php
+
+		-
+			message: '#^Cannot access property \$description on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot access property \$domain on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot access property \$id on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot access property \$image on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot access property \$kind on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot access property \$label on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 2
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot access property \$label on Omnilab\\Model\\Property\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot access property \$source on Omnilab\\Model\\Property\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot access property \$synonyms on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 6
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot access property \$url on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: property.nonObject
+			count: 1
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot call method identifier\(\) on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot call method identifiers\(\) on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: method.nonObject
+			count: 1
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot call method properties\(\) on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: method.nonObject
+			count: 3
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot call method property\(\) on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: method.nonObject
+			count: 2
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Cannot call method value\(\) on Omnilab\\Model\\Entity\|null\.$#'
+			identifier: method.nonObject
+			count: 9
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Method Omnilab\\Chebi\\Tests\\ChebiSourceTest\:\:source\(\) has parameter \$options with no value type specified in iterable type array\.$#'
+			identifier: missingType.iterableValue
+			count: 1
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Parameter \#1 \$options of method Omnilab\\Source\\SourceFactory\:\:create\(\) expects array\<string, mixed\>, array given\.$#'
+			identifier: argument.type
+			count: 1
+			path: Tests/ChebiSourceTest.php
+
+		-
+			message: '#^Parameter \#2 \$string of static method PHPUnit\\Framework\\Assert\:\:assertStringStartsWith\(\) expects string, string\|null given\.$#'
+			identifier: argument.type
+			count: 1
+			path: Tests/ChebiSourceTest.php
