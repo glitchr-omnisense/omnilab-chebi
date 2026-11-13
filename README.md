@@ -33,6 +33,35 @@ omnilab:
 With PubChem and Wikidata configured too, the `Collector` follows a compound from one to the
 others: `$collector->collect('pubchem', 'caffeine')` reaches ChEBI by caffeine's InChIKey.
 
+## Install and a first call
+
+```sh
+composer require omnilab/chebi
+```
+
+A real call, with no account and no key: caffeine in ChEBI. `mailto` is your address, sent in the
+User-Agent so that the service can reach you before it blocks a caller; the source keeps to the
+limits its [`policy.json`](policy.json) declares.
+
+```php
+<?php
+
+require __DIR__.'/vendor/autoload.php';
+
+use Omnilab\Chebi\ChebiSourceFactory;
+use Omnilab\Model\Scheme;
+
+$chebi = (new ChebiSourceFactory())->create(['mailto' => 'you@example.org']);   // your address, in the User-Agent
+$caffeine = $chebi->entity('CHEBI:27732');
+echo $caffeine->label, ', ', $caffeine->property('molecular_weight'), ', CAS ', $caffeine->identifier(Scheme::CAS), "\n";
+```
+
+Its output on 2026-11-13:
+
+```
+caffeine, 194.194 g/mol, CAS 58-08-2
+```
+
 ## Terms of use
 
 ChEBI is run by EMBL-EBI, free and without a key. Its data is under
